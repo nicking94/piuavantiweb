@@ -98,7 +98,7 @@ const CancionesPage = () => {
                   href={song.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className=" cursor-pointer text-xs 2xl:text-sm text-white hover:text-blue-200 transition-colors duration-300"
+                  className="cursor-pointer text-xs 2xl:text-sm text-white hover:text-blue-200 transition-colors duration-300"
                 >
                   Escuchar
                 </a>

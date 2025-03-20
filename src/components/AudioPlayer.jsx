@@ -27,7 +27,7 @@ const AudioPlayer = ({ src = "/audio/demo.mp3" }) => {
       <div className="fixed bottom-4 left-4 z-50">
         <button
           onClick={togglePlay}
-          className="text-xxs md:text-md cursor-pointer font-semibold flex w-[9rem] justify-center items-center gap-1 p-2 md:p-3  bg-gradient-to-tr from-gray_m to-black rounded-full shadow-lg border-[1px] border-gray_m hover:shadow-xl hover:shadow-gray_m hover:scale-105 transition all duration-300"
+          className="text-xxs md:text-xs cursor-pointer font-semibold flex w-[9rem] justify-center items-center gap-1 p-2 md:p-3  bg-gradient-to-tr from-gray_m to-black rounded-full shadow-lg border-[1px] border-gray_m hover:shadow-xl hover:shadow-gray_m hover:scale-105 transition all duration-300"
         >
           {isPlaying ? (
             <Pause className="h-6 w-6 text-white" />

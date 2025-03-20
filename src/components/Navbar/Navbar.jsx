@@ -108,7 +108,7 @@ const Navbar = () => {
 
         {/* Menú móvil */}
         <div
-          className={`min-h-screen fixed inset-0 bg-black/95  text-white flex flex-col p-6  z-50 transition-transform duration-300 ${
+          className={`min-h-screen fixed inset-0 bg-black  text-white flex flex-col p-6  z-50 transition-transform duration-300 ${
             isMenuOpen ? "translate-x-0" : "translate-x-full"
           }`}
         >

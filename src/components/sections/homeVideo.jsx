@@ -4,7 +4,7 @@ import { Link } from "lucide-react";
 
 const About = () => {
   return (
-    <div className="flex flex-col items-center justify-center h-[800px] text-center p-5 md:p-10 space-y-10">
+    <div className="w-full h-[700px] flex flex-col items-center justify-center text-center space-y-10">
       <iframe
         className="w-full h-full"
         src="https://www.youtube.com/embed/WG9YaMKpUvE?si=nXMp3_Ii6quvPFur&amp;start=3"
